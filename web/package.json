@@ -1,0 +1,60 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "dayjs": "^1.9.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-linkify": "^1.0.0-alpha",
+    "react-query": "^3.21.0",
+    "react-scripts": "^4",
+    "react-window": "^1.8.6",
+    "runes": "^0.4.3",
+    "serve": "^13.0.2",
+    "swagger-ui-react": "^4.0.0-beta.4",
+    "typescript": "^4.0.3",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-linkify": "^1.0.0",
+    "@types/react-window": "^1.8.2",
+    "@types/runes": "^0.4.1",
+    "@types/styled-components": "^5.1.4",
+    "@types/swagger-ui-react": "^3.35.0",
+    "styled-components": "^5.2.1"
+  }
+}
